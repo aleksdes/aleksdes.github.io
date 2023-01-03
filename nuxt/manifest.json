@@ -1,0 +1,87 @@
+{
+  "node_modules/nuxt/dist/app/entry.mjs": {
+    "file": "entry-987e66f4.mjs",
+    "src": "node_modules/nuxt/dist/app/entry.mjs",
+    "isEntry": true,
+    "dynamicImports": [
+      "pages/contacts.vue",
+      "pages/index.vue",
+      "pages/liquidation.vue",
+      "pages/registration.vue",
+      "pages/services.vue"
+    ],
+    "css": [
+      "entry.1e65347c.css"
+    ],
+    "assets": [
+      "crypto-font.d7bdbb1b.eot",
+      "crypto-font.d0355902.ttf",
+      "crypto-font.263476e2.woff",
+      "crypto-font.62463c28.svg",
+      "color.473bc8ca.png",
+      "primeicons.c9eaf535.eot",
+      "primeicons.788dba0a.ttf",
+      "primeicons.feb68bf6.woff",
+      "primeicons.2ab98f70.svg"
+    ]
+  },
+  "pages/contacts.vue": {
+    "file": "contacts-147f2742.mjs",
+    "src": "pages/contacts.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/index.vue": {
+    "file": "index-0477717e.mjs",
+    "src": "pages/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_CardFeedback-b55f07ea.mjs"
+    ]
+  },
+  "_CardFeedback-b55f07ea.mjs": {
+    "file": "CardFeedback-b55f07ea.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/liquidation.vue": {
+    "file": "liquidation-2cadcf22.mjs",
+    "src": "pages/liquidation.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_LinkToAnotherService-38c1c434.mjs",
+      "_CardFeedback-b55f07ea.mjs"
+    ]
+  },
+  "_LinkToAnotherService-38c1c434.mjs": {
+    "file": "LinkToAnotherService-38c1c434.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/registration.vue": {
+    "file": "registration-18fd4278.mjs",
+    "src": "pages/registration.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_LinkToAnotherService-38c1c434.mjs",
+      "_CardFeedback-b55f07ea.mjs"
+    ]
+  },
+  "pages/services.vue": {
+    "file": "services-e8fc770a.mjs",
+    "src": "pages/services.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_LinkToAnotherService-38c1c434.mjs",
+      "_CardFeedback-b55f07ea.mjs"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Sitemap: http://aleksdes.github.io/sit
+emap.xml
